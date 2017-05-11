@@ -1,0 +1,104 @@
+/* Menu check box */
+#menu {
+    display: none;
+}
+
+/* Menu itself */
+aside {
+    position: fixed;
+    transition: transform 0.3s;
+    background: @background-color;
+    width: 260px;
+    max-width: 260px;
+    height: 100%;
+    z-index: 2;
+}
+nav {
+    width: 100%;
+    overflow-y: auto;
+    font-weight: 400;
+}
+/* Menu items */
+.menu-container a,
+.menu-container a:visited,
+.menu-container label,
+.menu-container label:visited {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: @button-color;
+    cursor: pointer;
+    transition: none;
+    padding: 10px 24px;
+    border: none;
+    z-index: 4;
+}
+.menu-container a:hover,
+.menu-container label:hover {
+    background: @button-color;
+    color: @foreground-color;
+    border: none;
+}
+
+/* Sub menus */
+.submenu {
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+.submenu a {
+    position: relative;
+    padding: 0 10px 0 40px;
+    font-size: 1em;
+    height: 0;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: height .3s, opacity 0.3s;
+}
+
+/* Menu buttons */
+#menu ~ label#open {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 14px;
+    font-size: 20px;
+    background: fade(@background-color, 10%);
+    cursor: pointer;
+    color: @button-color;
+    z-index: 3;
+    transition: background 0.3s, color 0.3s;
+}
+#menu ~ label#open:hover {
+    color: @foreground-color;
+    transition: color 0.3s;
+}
+
+/* Exit later in main content */
+#exit {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+    background-color: @foreground-color;
+    display: none;
+    opacity: 0;
+}
+
+/* Interactions */
+input[id^="submenu-"] {
+    display: none;
+}
+input[id^="submenu-"]:checked + label {
+    transition: background 0.2s, color 0.2s;
+    background: @background-color;
+    color: @foreground-color;
+}
+input[id^="submenu-"]:checked ~ .submenu a {
+    height: 40px;
+    opacity: 1;
+    transition: height .3s, opacity .3s;
+}

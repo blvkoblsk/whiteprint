@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700" rel="stylesheet">-->
+    <link rel="stylesheet" type="text/css" href="wp.min.css">
+    <title>whiteprint.css</title>
+</head>
+<body>
+
+<!-- Menu -->
+<input type="checkbox" id="menu">
+<label for="menu" id="open">☰</label>
+<aside>
+    <div class="logo">whiteprint.css</div>
+    <nav>
+        <div class="menu-container">
+            <a href="#">home</a>
+            <div class="drop-down">
+                <input type="checkbox" id="submenu-documentation">
+                <label for="submenu-documentation">documentation</label>
+                <div class="submenu">
+                    <a href="#headers">headers</a>
+                    <a href="#paragraph">paragraph</a>
+                    <a href="#links">links</a>
+                    <a href="#references">references</a>
+                </div>
+            </div>
+            <a href="">about</a>
+        </div>
+    </nav>
+</aside>
+
+<!-- Main content -->
+<main>
+    <h1>Documentation</h1>
+    <h2 id="headers">Headers</h2>
+    <span class="p"></span> supports only 3 levels of paragraph and more should not be used for readability.
+    The headers follow the following stylistic order:
+    <h1 style="padding: 0">Header 1</h1>
+    <h2 style="padding: 0">Header 2</h2>
+    <h3 style="padding: 0">Header 3</h3>
+
+    <br>
+    <h2 id="paragraph">Paragraphs</h2>
+    <p>
+        Lorem ipsum dolor sit amet, dolor sed ipsum ut proin sollicitudin, in diam vitae ut vel. Suspendisse
+        pellentesque condimentum felis. Feugiat vel interdum sociis, enim vel. Dolor purus fusce netus gravida.
+        Praesent proin elit, vel ut feugiat potenti est elit felis, condimentum commodo dolor, condimentum sed massa,
+        nec velit nullam adipiscing consectetuer velit. Tincidunt natoque a sed arcu sit, egestas neque egestas, ante
+        donec, consequat tempus etiam wisi lectus libero libero, suspendisse at montes consequat. Amet suscipit,
+        habitant vehicula mauris maecenas ut, mollitia voluptatem a. Lacus arcu nonummy adipiscing, integer eget
+        consectetuer cursus donec facilisis, nibh et massa, nunc pede pede maecenas nec.
+    </p>
+    <p>
+        Risus fusce et, pede mauris phasellus, imperdiet turpis vulputate quis non tristique, vitae risus ultrices
+        sagittis cras, diam fusce faucibus platea sed. Vulputate posuere nibh dolor risus, parturient ut pede sed
+        lectus pulvinar amet. Neque habitant. Faucibus suscipit consectetuer posuere, elit eget vivamus. Mauris
+        vestibulum praesent consectetuer, duis lorem ut etiam diam nonummy nec, parturient aliquam. Ut ridiculus integer
+        dictum. Mattis integer viverra quam morbi, lectus quis pellentesque, est aliquet amet aliquip nibh. Luctus
+        feugiat praesent class pellentesque tincidunt in. Convallis ut ornare molestie dolor, nec pellentesque tempus
+        molestie arcu phasellus, inceptos ultrices. Nulla orci, ac risus, ipsum per officiis ipsum est ad, gravida
+        elementum blandit egestas venenatis.
+    </p>
+
+    <h2 id="links">Links and buttons</h2>
+    <p>
+        The elements <code>&lt;a&gt;</code> are reserved for in-line links. These <a>unvisited</a> and
+        <a class="visited">visited</a> links are colored blue and underlined to support color blind and low-vision
+        readers<span class="ref"><a href="https://www.nngroup.com/articles/guidelines-for-visualizing-links/">Guidelines
+        for visualizing links</a></span>.
+        There are two other links used outside text: external
+        links and buttons. External links <code>&lt;a class='ext'&gt;</code> are more visible as context doesn't
+        help the reader recognizing them:<br>
+        <a class="ext">external link</a>
+
+        <button>default button</button>
+    </p>
+
+    <h2 id="references">References</h2>
+    You a can add a reference to the text, which is a special type of link, by wrapping the link inside a
+    <code>&lt;span class='ref'&gt;</code> tag. The resulting link becomes a reference which is then indicated by a
+    <code>ref</code> superscript right where you want to put the reference.
+
+
+    <!-- Label to hide menu -->
+    <label for="menu" id="exit"></label>
+</main>
+</body>
+</html>

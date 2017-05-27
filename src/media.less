@@ -1,0 +1,41 @@
+@margin-small-screen: 2.1*@menu-width;
+@margin-tablet: @menu-width;
+@margin-mobile: @menu-width/2;
+
+/* Main */
+main {
+  @media (max-width: 1240px) {
+    width: ~"calc(100% - @{margin-small-screen})";
+  }
+  @media screen and (max-width: 1140px) {
+    width: ~"calc(100% - @{margin-tablet})";
+  }
+  @media screen and (max-width: 700px) {
+    width: ~"calc(100% - @{margin-mobile})";
+  }
+}
+
+/* Aside */
+aside {
+  @media screen and (max-width: 1140px) {
+    transform: translateX(-105%);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  @media screen and (max-width: 700px) {
+    width: 80%;
+  }
+}
+
+/* Tablet screen */
+@media screen and (max-width: 1120px) {
+  #menu ~ label#open {
+    display: block;
+  }
+
+  #menu:checked ~ main > label#exit {
+    display: block;
+  }
+  #menu:checked ~ aside {
+    transform: translateX(0);
+  }
+}

@@ -1,16 +1,33 @@
+/* Colors */
+@background-color: #fff;
+@foreground-color: #000;
+@main-width: 800px;
+
+/* General */
 *{
   box-sizing: border-box;
 }
 
+/* Text selection */
 ::selection {
   color: @background-color;
   background-color: @foreground-color;
 }
 
+/* HTML, body */
 html,
 body {
   background-color: @background-color;
   font-family: 'Avenir Next', sans-serif;
   margin: 0;
   padding: 0;
+}
+
+/* Content */
+main {
+  width: ~"calc(100% - @{menu-width})";
+  max-width: @main-width;
+  margin: 0 auto;
+  height: 100%;
+  line-height: 1.6em;
 }

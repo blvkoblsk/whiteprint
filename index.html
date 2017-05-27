@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700" rel="stylesheet">-->
-    <link rel="stylesheet" type="text/css" href="wp.min.css">
+    <link rel="stylesheet" type="text/css" href="wp.css">
     <title>whiteprint.css</title>
 </head>
 <body>
@@ -15,73 +15,232 @@
 <aside>
     <div class="logo">whiteprint.css</div>
     <nav>
-        <div class="menu-container">
-            <a href="#">home</a>
+        <div>
+            <a href="#whats-this">what is this?</a>
+            <a href="#how-to-use">how can I use it?</a>
             <div class="drop-down">
-                <input type="checkbox" id="submenu-documentation">
-                <label for="submenu-documentation">documentation</label>
-                <div class="submenu">
-                    <a href="#headers">headers</a>
-                    <a href="#paragraph">paragraph</a>
-                    <a href="#links">links</a>
-                    <a href="#references">references</a>
+                <input type="checkbox" id="s1-documentation">
+                <label for="s1-documentation">documentation</label>
+                <div class="s1">
+                    <a href="#doc-menu">menu</a>
+                    <a href="#doc-headers">headers</a>
+                    <input type="checkbox" id="s2-links"><label for="s2-links">links</label>
+                    <div class="s2">
+                        <a href="#doc-links-inline">inline link</a>
+                        <a href="#doc-links-buttons">buttons</a>
+                        <a href="#doc-links-reference">references</a>
+                    </div>
+                    <input type="checkbox" id="s2-lists"><label for="s2-lists">lists</label>
+                    <div class="s2">
+                        <a href="#doc-lists-unordered">unordered</a>
+                        <a href="#doc-lists-ordered">ordered</a>
+                        <a href="#doc-lists-description">description</a>
+                        <a href="#doc-lists-custom">custom</a>
+                    </div>
+                    <input type="checkbox" id="s2-code"><label for="s2-code">code</label>
+                    <div class="s2">
+                        <a href="#doc-code-inline">inline</a>
+                        <a href="#doc-code-block">block</a>
+                        <a href="#doc-code-classes">classes</a>
+                    </div>
+                    <a href="#doc-table">table</a>
                 </div>
             </div>
-            <a href="">about</a>
         </div>
     </nav>
 </aside>
 
 <!-- Main content -->
 <main>
+    <!-- What is this? -->
+    <h1 id="whats-this">What is this?</h1>
+    <span class="wp"></span> is a light-weight list of CSS definitions for a minimalist responsive documentation.
+
+
+
+    <!-- How can I use it? -->
+    <h1 id="how-to-use">How can I use it?</h1>
+    Download the mininified source <a href="https://github.com/synesenom/whiteprint">here</a> and add the following line
+    to the header of your HTML:
+    <pre>&lt;link rel="stylesheet" type="text/css" href="wp.min.css"&gt;</pre>
+
+
+
+    <!--  Documentation -->
     <h1>Documentation</h1>
-    <h2 id="headers">Headers</h2>
-    <span class="p"></span> supports only 3 levels of paragraph and more should not be used for readability.
+
+
+    <!-- Menu -->
+    <h2 id="doc-menu">Menu</h2>
+    The menu consists of a <code class="tag">div</code> elem wrapped inside a <code class="tag">nav</code> which is inside an
+    <code class="tag">aside</code> tag.
+    A top level menu entry is a simple anchor <code class="tag">a</code>.
+    A sub-menu is made by adding a checkbox <code class="tag">input</code> with <code>id='s1-*'</code>, where
+    <code>*</code> denotes the id of the sub-menu. The <code class="tag">input</code> tag is followed by a
+    <code class="tag">label</code> and a <code class="tag">div</code> with <code>class='s1'</code>.
+    <br>
+    Second level sub-menu is created in the same fashion as the sub-menu, but with <code>s2</code> as
+    id-initial and class name.
+
+
+    <!-- Headers -->
+    <h2 id="doc-headers">Headers</h2>
+    <span class="wp"></span> supports only 3 levels of headers for readability reasons.
     The headers follow the following stylistic order:
     <h1 style="padding: 0">Header 1</h1>
     <h2 style="padding: 0">Header 2</h2>
     <h3 style="padding: 0">Header 3</h3>
 
-    <br>
-    <h2 id="paragraph">Paragraphs</h2>
-    <p>
-        Lorem ipsum dolor sit amet, dolor sed ipsum ut proin sollicitudin, in diam vitae ut vel. Suspendisse
-        pellentesque condimentum felis. Feugiat vel interdum sociis, enim vel. Dolor purus fusce netus gravida.
-        Praesent proin elit, vel ut feugiat potenti est elit felis, condimentum commodo dolor, condimentum sed massa,
-        nec velit nullam adipiscing consectetuer velit. Tincidunt natoque a sed arcu sit, egestas neque egestas, ante
-        donec, consequat tempus etiam wisi lectus libero libero, suspendisse at montes consequat. Amet suscipit,
-        habitant vehicula mauris maecenas ut, mollitia voluptatem a. Lacus arcu nonummy adipiscing, integer eget
-        consectetuer cursus donec facilisis, nibh et massa, nunc pede pede maecenas nec.
-    </p>
-    <p>
-        Risus fusce et, pede mauris phasellus, imperdiet turpis vulputate quis non tristique, vitae risus ultrices
-        sagittis cras, diam fusce faucibus platea sed. Vulputate posuere nibh dolor risus, parturient ut pede sed
-        lectus pulvinar amet. Neque habitant. Faucibus suscipit consectetuer posuere, elit eget vivamus. Mauris
-        vestibulum praesent consectetuer, duis lorem ut etiam diam nonummy nec, parturient aliquam. Ut ridiculus integer
-        dictum. Mattis integer viverra quam morbi, lectus quis pellentesque, est aliquet amet aliquip nibh. Luctus
-        feugiat praesent class pellentesque tincidunt in. Convallis ut ornare molestie dolor, nec pellentesque tempus
-        molestie arcu phasellus, inceptos ultrices. Nulla orci, ac risus, ipsum per officiis ipsum est ad, gravida
-        elementum blandit egestas venenatis.
-    </p>
 
-    <h2 id="links">Links and buttons</h2>
-    <p>
-        The elements <code>&lt;a&gt;</code> are reserved for in-line links. These <a>unvisited</a> and
-        <a class="visited">visited</a> links are colored blue and underlined to support color blind and low-vision
-        readers<span class="ref"><a href="https://www.nngroup.com/articles/guidelines-for-visualizing-links/">Guidelines
-        for visualizing links</a></span>.
-        There are two other links used outside text: external
-        links and buttons. External links <code>&lt;a class='ext'&gt;</code> are more visible as context doesn't
-        help the reader recognizing them:<br>
-        <a class="ext">external link</a>
+    <!-- Links -->
+    <h2 id="doc-links">Links</h2>
 
-        <button>default button</button>
-    </p>
+    <!-- Inline link -->
+    <h3 id="doc-links-inline">inline link</h3>
+    The elements <code class="tag">a</code> are used for in-line links. These <a>unvisited</a> and
+    <a class="visited">visited</a> links are colored blue and gray.
 
-    <h2 id="references">References</h2>
+    <!-- Button -->
+    <h3 id="doc-links-buttons">buttons</h3>
+    Buttons can appear in different context, but <span class="wp"></span>
+    provides the same design for each of them. The last one (file) requires a <code class="tag">label</code> element
+    after the file input, and also a <code class="tag">span</code> to show the selected files<span class="ref"><a href="https://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/">Styling &amp; Customizing File Inputs the Smart Way</a></span>.
+    These are not included here as JS is not part of <span class="wp"></span>. The buttons are:<br>
+    <button>button element</button>
+    <a class="button">anchor element</a>
+    <input type="button" value="button input">
+    <input type="submit" value="submit input">
+    <input type="file" id="filebutton"><label for="filebutton">file input</label>
+    <br><br>
+    Once a file is selected, a <code class="tag">span</code> with the <code>.filename</code> class can be used to show the file name:
+    <span class="filename">Selected file</span>
+
+    <!-- Reference -->
+    <h3 id="doc-links-reference">reference</h3>
     You a can add a reference to the text, which is a special type of link, by wrapping the link inside a
-    <code>&lt;span class='ref'&gt;</code> tag. The resulting link becomes a reference which is then indicated by a
-    <code>ref</code> superscript right where you want to put the reference.
+    <code class="tag">span class='ref'</code> tag. The resulting link becomes a reference indicated by a superscript
+    right where you want to put the reference.
+
+
+    <!-- Lists -->
+    <h2 id="doc-lists">Lists</h2>
+    <span class="wp"></span> supports all three types of lists: unordered, ordered and description lists. In addition,
+    there is an unordered class with custom label/value pairs.
+
+    <!-- Unordered -->
+    <h3 id="doc-lists-unordered">unordered</h3>
+    Short shopping list:
+    <ul>
+        <li>bean</li>
+        <li>potato</li>
+        <li>tomato</li>
+        <li>jalapeño</li>
+        <li>minced meat</li>
+        <li>timian</li>
+    </ul>
+
+    <!-- Ordered -->
+    <h3 id="doc-lists-ordered">ordered</h3>
+    Awesome recipe:
+    <ol>
+        <li>Cook meat until it's edible.</li>
+        <li>Chop the potatoes and tomatoes in small cubes.</li>
+        <li>Cook all vegetables together with the meat.</li>
+        <li>Add timian and jalapeños.</li>
+    </ol>
+
+    <!-- Description lists -->
+    <h3 id="doc-lists-description">description</h3>
+    A short description of some Scandinavian countries:
+    <dl>
+        <dt>Denmark</dt>
+        <dd>Lot of bikes, good beers and licorice.</dd>
+        <dt>Sweden</dt>
+        <dd>Lot of steel, cold head and semla.</dd>
+        <dt>Iceland</dt>
+        <dd>Beautiful nature, green energy and hákarl.</dd>
+    </dl>
+
+    <!-- Custom list -->
+    <h3 id="doc-lists-custom">custom</h3>
+    The custom list has the same syntax as a description list, but uses the <code>.custom</code> class:
+    <dl class="custom">
+        <dt>html</dt>
+        <dd>Markup language to describe the content of a web page.</dd>
+        <dt>css</dt>
+        <dd>Stylesheet language to describe the look and feel of a web page.</dd>
+        <dt>javascript</dt>
+        <dd>Scripting language to implement interactions between web elements.</dd>
+    </dl>
+
+
+    <!-- Code -->
+    <h2 id="doc-code">Code</h2>
+
+    <!-- Inline -->
+    <h3 id="doc-code-inline">inline</h3>
+    Code that is inserted in a text is surrounded by the <code class="tag">code</code> tag.
+
+    <!-- Block -->
+    <h3 id="doc-code-block">block</h3>
+    For a larger code block, wrap the code in <code class="tag">pre</code>:
+    <pre>
+html,
+body {
+    font-family: 'Avenir Next', 'Helvetica', sans-serif;
+    background-color: white;
+    color: black;
+}</pre>
+
+    <!-- Classes -->
+    <h3 id="doc-code-classes">classes</h3>
+    Some convenience classes are also provided for quick edit:
+
+    <dl class="custom">
+        <dt><code>.tag</code></dt>
+        <dd>wraps the content with the <code>&lt;</code> and <code>&gt;</code> brackets.</dd>
+    </dl>
+
+
+    <!-- Table -->
+    <h2 id="doc-table">Table</h2>
+    <table>
+        <caption>A table with <code class="tag">thead</code>, <code class="tag">tfoot</code> and
+            <code class="tag">tbody</code>.</caption>
+        <thead>
+        <tr>
+            <th>item name</th>
+            <th>number of items</th>
+            <th>item price</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <td>total</td>
+            <td>4</td>
+            <td>51$</td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <td>beer</td>
+            <td>2</td>
+            <td>3$</td>
+        </tr>
+        <tr>
+            <td>wine</td>
+            <td>1</td>
+            <td>10$</td>
+        </tr>
+        <tr>
+            <td>vodka</td>
+            <td>1</td>
+            <td>35$</td>
+        </tr>
+        </tbody>
+    </table>
+
+
 
 
     <!-- Label to hide menu -->

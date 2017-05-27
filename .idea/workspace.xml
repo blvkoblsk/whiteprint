@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40a573d4-fbcf-4658-a8ad-a704a25b86ff" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/button.less" afterPath="$PROJECT_DIR$/src/buttons.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bundle.less" afterPath="$PROJECT_DIR$/src/bundle.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core.less" afterPath="$PROJECT_DIR$/src/core.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lists.less" afterPath="$PROJECT_DIR$/src/lists.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp.css" afterPath="$PROJECT_DIR$/wp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp.min.css" afterPath="$PROJECT_DIR$/wp.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lists.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lists.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lists.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -103,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="code.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/code.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -175,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/media.less" />
         <option value="$PROJECT_DIR$/src/menu.less" />
         <option value="$PROJECT_DIR$/src/header.less" />
-        <option value="$PROJECT_DIR$/src/code.less" />
         <option value="$PROJECT_DIR$/src/table.less" />
         <option value="$PROJECT_DIR$/src/bundle.less" />
         <option value="$PROJECT_DIR$/src/headers.less" />
@@ -183,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/core.less" />
         <option value="$PROJECT_DIR$/src/buttons.less" />
         <option value="$PROJECT_DIR$/src/lists.less" />
+        <option value="$PROJECT_DIR$/src/code.less" />
       </list>
     </option>
   </component>
@@ -517,7 +511,7 @@
       <workItem from="1494540985000" duration="38000" />
       <workItem from="1494541041627" duration="3323000" />
       <workItem from="1494569489547" duration="51000" />
-      <workItem from="1494569552471" duration="30304000" />
+      <workItem from="1494569552471" duration="30450000" />
     </task>
     <task id="LOCAL-00001" summary="first stable version out.">
       <created>1495900399811</created>
@@ -540,11 +534,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495900780415</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some font fixes">
+      <created>1495901050053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1495901050053</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36057000" />
+    <option name="totallyTimeSpent" value="36203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="798" extended-state="6" />
@@ -555,7 +556,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921812" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921812" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -578,7 +579,8 @@
     <MESSAGE value="first stable version out." />
     <MESSAGE value="minified file added." />
     <MESSAGE value="available font support added" />
-    <option name="LAST_COMMIT_MESSAGE" value="available font support added" />
+    <MESSAGE value="some font fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some font fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -878,14 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/table.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -969,6 +963,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>

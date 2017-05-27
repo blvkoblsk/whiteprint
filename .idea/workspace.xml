@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40a573d4-fbcf-4658-a8ad-a704a25b86ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bundle.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/button.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/headers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/link.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lists.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/logo.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/paragraph.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reference.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/table.less" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/color.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/color.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/core.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/paper.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/paper.less" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sh" afterPath="$PROJECT_DIR$/build.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core.less" afterPath="$PROJECT_DIR$/src/core.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/menu.less" afterPath="$PROJECT_DIR$/src/menu.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp.css" afterPath="$PROJECT_DIR$/wp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp.min.css" afterPath="$PROJECT_DIR$/wp.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,19 +23,29 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="75">
+              <caret line="5" column="97" lean-forward="false" selection-start-line="5" selection-start-column="97" selection-end-line="5" selection-end-column="97" />
               <folding>
-                <element signature="e#2639#2643#0" expanded="true" />
-                <element signature="e#2698#2702#0" expanded="true" />
+                <element signature="e#2632#2636#0" expanded="true" />
+                <element signature="e#2691#2695#0" expanded="true" />
                 <element signature="n#style#0;n#h1#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#4607#4612#0" expanded="true" />
-                <element signature="e#7999#8003#1" expanded="true" />
-                <element signature="e#8021#8025#1" expanded="true" />
+                <element signature="e#4600#4605#0" expanded="true" />
+                <element signature="e#7992#7996#1" expanded="true" />
+                <element signature="e#8014#8018#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="core.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/core.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="39" />
+            <state relative-caret-position="300">
+              <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -171,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/reference.less" />
         <option value="$PROJECT_DIR$/src/link.less" />
         <option value="$PROJECT_DIR$/src/media.less" />
-        <option value="$PROJECT_DIR$/src/core.less" />
         <option value="$PROJECT_DIR$/src/menu.less" />
         <option value="$PROJECT_DIR$/src/header.less" />
         <option value="$PROJECT_DIR$/src/code.less" />
@@ -180,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/bundle.less" />
         <option value="$PROJECT_DIR$/src/headers.less" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/core.less" />
       </list>
     </option>
   </component>
@@ -514,12 +503,27 @@
       <workItem from="1494540985000" duration="38000" />
       <workItem from="1494541041627" duration="3323000" />
       <workItem from="1494569489547" duration="51000" />
-      <workItem from="1494569552471" duration="29788000" />
+      <workItem from="1494569552471" duration="30028000" />
     </task>
+    <task id="LOCAL-00001" summary="first stable version out.">
+      <created>1495900399811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495900399811</updated>
+    </task>
+    <task id="LOCAL-00002" summary="minified file added.">
+      <created>1495900449593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1495900449593</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35541000" />
+    <option name="totallyTimeSpent" value="35781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="798" extended-state="6" />
@@ -530,7 +534,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921812" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -549,6 +553,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first stable version out." />
+    <MESSAGE value="minified file added." />
+    <option name="LAST_COMMIT_MESSAGE" value="minified file added." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -559,12 +568,12 @@
         <state relative-caret-position="270">
           <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
-            <element signature="e#2639#2643#0" expanded="true" />
-            <element signature="e#2698#2702#0" expanded="true" />
+            <element signature="e#2632#2636#0" expanded="true" />
+            <element signature="e#2691#2695#0" expanded="true" />
             <element signature="n#style#0;n#h1#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4607#4612#0" expanded="true" />
-            <element signature="e#7999#8003#1" expanded="true" />
-            <element signature="e#8021#8025#1" expanded="true" />
+            <element signature="e#4600#4605#0" expanded="true" />
+            <element signature="e#7992#7996#1" expanded="true" />
+            <element signature="e#8014#8018#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -614,12 +623,12 @@
         <state relative-caret-position="270">
           <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
-            <element signature="e#2639#2643#0" expanded="true" />
-            <element signature="e#2698#2702#0" expanded="true" />
+            <element signature="e#2632#2636#0" expanded="true" />
+            <element signature="e#2691#2695#0" expanded="true" />
             <element signature="n#style#0;n#h1#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4607#4612#0" expanded="true" />
-            <element signature="e#7999#8003#1" expanded="true" />
-            <element signature="e#8021#8025#1" expanded="true" />
+            <element signature="e#4600#4605#0" expanded="true" />
+            <element signature="e#7992#7996#1" expanded="true" />
+            <element signature="e#8014#8018#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -669,12 +678,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2639#2643#0" expanded="true" />
-            <element signature="e#2698#2702#0" expanded="true" />
+            <element signature="e#2632#2636#0" expanded="true" />
+            <element signature="e#2691#2695#0" expanded="true" />
             <element signature="n#style#0;n#h1#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4607#4612#0" expanded="true" />
-            <element signature="e#7999#8003#1" expanded="true" />
-            <element signature="e#8021#8025#1" expanded="true" />
+            <element signature="e#4600#4605#0" expanded="true" />
+            <element signature="e#7992#7996#1" expanded="true" />
+            <element signature="e#8014#8018#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -684,12 +693,12 @@
         <state relative-caret-position="120">
           <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding>
-            <element signature="e#2639#2643#0" expanded="true" />
-            <element signature="e#2698#2702#0" expanded="true" />
+            <element signature="e#2632#2636#0" expanded="true" />
+            <element signature="e#2691#2695#0" expanded="true" />
             <element signature="n#style#0;n#h1#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4607#4612#0" expanded="true" />
-            <element signature="e#7999#8003#1" expanded="true" />
-            <element signature="e#8021#8025#1" expanded="true" />
+            <element signature="e#4600#4605#0" expanded="true" />
+            <element signature="e#7992#7996#1" expanded="true" />
+            <element signature="e#8014#8018#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -791,14 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -895,14 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bundle.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -919,6 +912,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="97" lean-forward="false" selection-start-line="5" selection-start-column="97" selection-end-line="5" selection-end-column="97" />
+          <folding>
+            <element signature="e#2632#2636#0" expanded="true" />
+            <element signature="e#2691#2695#0" expanded="true" />
+            <element signature="n#style#0;n#h1#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4600#4605#0" expanded="true" />
+            <element signature="e#7992#7996#1" expanded="true" />
+            <element signature="e#8014#8018#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/headers.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -927,18 +943,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/core.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="e#2639#2643#0" expanded="true" />
-            <element signature="e#2698#2702#0" expanded="true" />
-            <element signature="n#style#0;n#h1#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4607#4612#0" expanded="true" />
-            <element signature="e#7999#8003#1" expanded="true" />
-            <element signature="e#8021#8025#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>

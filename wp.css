@@ -20,7 +20,7 @@ body {
 /* Content */
 main {
   width: calc(100% - 220px);
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   height: 100%;
   line-height: 1.6em;
@@ -418,8 +418,7 @@ span.ref:hover a {
     transform: translateX(0);
   }
 }
-code,
-pre {
+code {
   font-size: 0.8em;
   font-family: 'Courier', monospace;
   font-style: normal;
@@ -436,8 +435,12 @@ code.tag:after {
   content: ">";
 }
 pre {
+  font-size: 0.9em;
+  font-family: 'Courier', monospace;
+  font-style: normal;
   line-height: 1.5em;
   overflow-x: scroll;
   padding: 10px 15px;
   display: block;
+  background-color: #e6e6e6;
 }

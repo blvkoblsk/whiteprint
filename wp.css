@@ -203,7 +203,7 @@ p {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 table caption {
   caption-side: bottom;
@@ -216,13 +216,15 @@ table thead {
   text-align: left;
   border-bottom: 1px solid #b3b3b3;
 }
-table tbody tr td {
-  padding-top: 5px;
-  padding-bottom: 3px;
+table thead th {
+  font-weight: normal;
+  font-variant: all-small-caps;
+  font-size: 1.2em;
 }
-table tbody tr:hover {
-  background-color: #b3b3b3;
-  color: #fff;
+table tbody tr td {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  vertical-align: top;
 }
 table tbody tr td:first-child {
   padding-left: 7px;
@@ -442,7 +444,8 @@ code {
   display: inline-block;
   border-radius: 3px;
   padding: 3px 6px;
-  background-color: #e6e6e6;
+  background-color: #f2f2f2;
+  color: #000;
 }
 code.tag:before {
   content: "<";
@@ -457,6 +460,12 @@ pre {
   line-height: 1.5em;
   overflow-x: scroll;
   padding: 10px 15px;
+  margin: 0;
   display: block;
-  background-color: #e6e6e6;
+  background-color: #f2f2f2;
+  color: #000;
+}
+div.card {
+  padding: 10px;
+  border: 1px solid #e6e6e6;
 }

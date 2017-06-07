@@ -3,7 +3,7 @@
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 20px;
+  margin-top: 20px;
   caption {
     caption-side: bottom;
     font-style: italic;
@@ -14,17 +14,19 @@ table {
   thead {
     text-align: left;
     border-bottom: 1px solid @table-border-color;
+    th {
+      font-weight: normal;
+      font-variant: all-small-caps;
+      font-size: 1.2em;
+    }
   }
   tbody {
     tr {
       td {
-        padding-top: 5px;
+        padding-top: 3px;
         padding-bottom: 3px;
+        vertical-align: top;
       }
-    }
-    tr:hover {
-      background-color: darken(@background-color, 30%);
-      color: @background-color;
     }
     tr td:first-child {
       padding-left: 7px;

@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="40a573d4-fbcf-4658-a8ad-a704a25b86ff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lists.less" afterPath="$PROJECT_DIR$/src/lists.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/table.less" afterPath="$PROJECT_DIR$/src/table.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp.css" afterPath="$PROJECT_DIR$/wp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp.min.css" afterPath="$PROJECT_DIR$/wp.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -489,7 +484,7 @@
       <workItem from="1494569552471" duration="30450000" />
       <workItem from="1496530089892" duration="654000" />
       <workItem from="1496530813930" duration="762000" />
-      <workItem from="1496815896174" duration="806000" />
+      <workItem from="1496815896174" duration="863000" />
     </task>
     <task id="LOCAL-00001" summary="first stable version out.">
       <created>1495900399811</created>
@@ -533,11 +528,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496531569494</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lists adjusted, some th classes added">
+      <created>1496816845658</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1496816845659</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38425000" />
+    <option name="totallyTimeSpent" value="38482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="798" extended-state="6" />
@@ -574,7 +576,8 @@
     <MESSAGE value="some font fixes" />
     <MESSAGE value="width of content decreased" />
     <MESSAGE value="headers adjusted" />
-    <option name="LAST_COMMIT_MESSAGE" value="headers adjusted" />
+    <MESSAGE value="lists adjusted, some th classes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="lists adjusted, some th classes added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

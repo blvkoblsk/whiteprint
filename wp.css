@@ -203,6 +203,7 @@ p {
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-bottom: 20px;
 }
 table caption {
   caption-side: bottom;
@@ -230,6 +231,18 @@ table tfoot {
   font-style: italic;
   margin-top: 5px;
   border-top: 1px solid #b3b3b3;
+}
+th.half {
+  width: 50%;
+}
+th.third {
+  width: 33.33%;
+}
+th.fourth {
+  width: 25%;
+}
+th.fifth {
+  width: 20%;
 }
 ul li,
 ol li,
@@ -270,16 +283,18 @@ dl.custom {
   padding-top: 0;
   width: calc(90% + 1.6em);
   overflow: hidden;
+  margin-top: 5px;
 }
 dl.custom dt {
   margin-left: -1.6em;
+  margin-top: 5px;
   float: left;
   width: calc(10% + 1.6em);
 }
 dl.custom dd {
   float: left;
   width: 80%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 /* Inline links */
 a {

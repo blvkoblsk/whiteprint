@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-SRCDIR="src"
+SRC_DIR="src"
 
 # Compile LESS code
-lessc ${SRCDIR}/bundle.less wp.css
+lessc ${SRC_DIR}/bundle.less wp.css
 
 # Minify CSS
 uglifycss wp.css --output wp.min.css

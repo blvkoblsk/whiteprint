@@ -218,11 +218,15 @@ table caption {
 table thead {
   text-align: left;
   border-bottom: 1px solid #b3b3b3;
+  font-size: 0.9em;
 }
 table thead th {
   font-weight: normal;
   font-variant: all-small-caps;
   font-size: 1.2em;
+}
+table tbody {
+  font-size: 0.9em;
 }
 table tbody tr td {
   padding-top: 3px;
@@ -233,6 +237,7 @@ table tbody tr td:first-child {
   padding-left: 7px;
 }
 table tfoot {
+  font-size: 0.9em;
   font-style: italic;
   margin-top: 5px;
   border-top: 1px solid #b3b3b3;

@@ -2,6 +2,10 @@
 
 @table-border-color: darken(@background-color, 30%);
 
+.fontSize() {
+  font-size: 0.9em;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -16,6 +20,7 @@ table {
   thead {
     text-align: left;
     border-bottom: 1px solid @table-border-color;
+    .fontSize();
     th {
       font-weight: normal;
       font-variant: all-small-caps;
@@ -23,6 +28,7 @@ table {
     }
   }
   tbody {
+    .fontSize();
     tr {
       td {
         padding-top: 3px;
@@ -35,6 +41,7 @@ table {
     }
   }
   tfoot {
+    .fontSize();
     font-style: italic;
     margin-top: 5px;
     border-top: 1px solid @table-border-color;

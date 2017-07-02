@@ -69,7 +69,7 @@ nav > div label:visited {
   color: #b3b3b3;
   cursor: pointer;
   transition: none;
-  padding: 10px 24px;
+  padding: 10px 20px;
   border: none;
 }
 nav > div a:hover,
@@ -80,7 +80,8 @@ nav > div label:hover {
 }
 /* Sub menus */
 .s1,
-.s2 {
+.s2,
+.s3 {
   height: auto;
   overflow: hidden;
   display: block;
@@ -88,9 +89,11 @@ nav > div label:hover {
 .s1 > a,
 .s1 > label,
 .s2 > a,
-.s2 > label {
+.s2 > label,
+.s3 > a,
+.s3 > label {
   position: relative;
-  padding: 0 10px 0 40px;
+  padding: 0 10px 0 30px;
   font-size: .9em;
   display: flex;
   align-items: center;
@@ -100,7 +103,11 @@ nav > div label:hover {
 }
 .s2 > a,
 .s2 > label {
-  padding: 0 10px 0 60px;
+  padding: 0 10px 0 40px;
+}
+.s3 > a,
+.s3 > label {
+  padding: 0 10px 0 50px;
 }
 /* Menu buttons */
 #menu ~ label#open {
@@ -133,11 +140,13 @@ nav > div label:hover {
 }
 /* Interactions */
 input[id^="s1-"],
-input[id^="s2-"] {
+input[id^="s2-"],
+input[id^="s3-"] {
   display: none;
 }
 input[id^="s1-"]:checked + label,
-input[id^="s2-"]:checked + label {
+input[id^="s2-"]:checked + label,
+input[id^="s3-"]:checked + label {
   color: #000;
 }
 input[id^="s1-"]:checked + label + .s1 > a,
@@ -146,7 +155,13 @@ input[id^="s1-"]:checked + label + .s1 > label {
   opacity: 1;
   transition: height 0.2s, opacity 0.2s;
 }
-input[id^="s2-"]:checked + label + .s2 > a {
+input[id^="s2-"]:checked + label + .s2 > a,
+input[id^="s2-"]:checked + label + .s2 > label {
+  height: 40px;
+  opacity: 1;
+  transition: height 0.2s, opacity 0.2s;
+}
+input[id^="s3-"]:checked + label + .s3 > a {
   height: 40px;
   opacity: 1;
   transition: height 0.2s, opacity 0.2s;

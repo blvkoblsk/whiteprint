@@ -166,8 +166,23 @@ input[id^="s3-"]:checked + label + .s3 > a {
   opacity: 1;
   transition: height 0.2s, opacity 0.2s;
 }
-input[id^="s1-"]:not(:checked) + label + .s1 a {
+input[id^="s1-"]:not(:checked) + label + .s1 a,
+input[id^="s1-"]:not(:checked) + label + .s1 div {
   height: 0;
+  opacity: 0;
+  transition: height 0.2s, opacity 0.2s;
+}
+input[id^="s2-"]:not(:checked) + label + .s2 a,
+input[id^="s2-"]:not(:checked) + label + .s2 div {
+  height: 0;
+  opacity: 0;
+  transition: height 0.2s, opacity 0.2s;
+}
+input[id^="s3-"]:not(:checked) + label + .s3 a,
+input[id^="s3-"]:not(:checked) + label + .s3 div {
+  height: 0;
+  opacity: 0;
+  transition: height 0.2s, opacity 0.2s;
 }
 @import-once "core";
 .wp:after {

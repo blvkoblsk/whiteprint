@@ -154,6 +154,24 @@ input[id^="s2-"]:checked + label + .s2 {
 input[id^="s3-"]:checked + label + .s3 > a {
   .open();
 }
-input[id^="s1-"]:not(:checked) + label + .s1 a {
-  height: 0;
+input[id^="s1-"]:not(:checked) {
+  + label + .s1 {
+    a, div {
+      .close();
+    }
+  }
+}
+input[id^="s2-"]:not(:checked) {
+  + label + .s2 {
+    a, div {
+      .close();
+    }
+  }
+}
+input[id^="s3-"]:not(:checked) {
+  + label + .s3 {
+    a, div {
+      .close();
+    }
+  }
 }

@@ -18,11 +18,6 @@
   transition: height @submenu-toggle-duration, opacity @submenu-toggle-duration;
 }
 
-/* Menu check box */
-#menu {
-  display: none;
-}
-
 /* Menu itself */
 aside {
   position: fixed;
@@ -40,80 +35,116 @@ aside {
   @media screen and (max-width: 700px) {
     width: 80%;
   }
-}
-nav {
-  width: 100%;
-  font-weight: 400;
-}
 
-/* Menu entries */
-nav > div a,
-nav > div a:visited,
-nav > div label,
-nav > div label:visited {
-  width: 100%;
-  display: block;
-  text-decoration: none;
-  color: @menu-color;
-  cursor: pointer;
-  transition: none;
-  padding: 10px 20px;
-  border: none;
-}
-nav > div a:hover,
-nav > div label:hover {
-  background: @menu-color;
-  color: @background-color;
-  border: none;
-}
+  /* Navigation bar */
+  nav {
+    width: 100%;
+    font-weight: 400;
 
-/* Sub menus */
-.s1,
-.s2,
-.s3 {
-  height: auto;
-  overflow: hidden;
-  display: block;
-}
-.s1 > a,
-.s1 > label,
-.s2 > a,
-.s2 > label,
-.s3 > a,
-.s3 > label {
-  position: relative;
-  padding: 0 10px 0 30px;
-  font-size: .9em;
-  display: flex;
-  align-items: center;
-  .close();
-}
-.s2 > a,
-.s2 > label {
-  padding: 0 10px 0 40px;
-}
-.s3 > a,
-.s3 > label {
-  padding: 0 10px 0 50px;
+    /* Menu entries */
+    a,
+    a:visited,
+    label,
+    label:visited {
+      width: 100%;
+      display: block;
+      text-decoration: none;
+      color: @menu-color;
+      cursor: pointer;
+      transition: none;
+      padding: 10px 20px;
+      border: none;
+    }
+    a:hover,
+    label:hover {
+      background: @menu-color;
+      color: @background-color;
+      border: none;
+    }
+
+    /* Sub menus */
+    [class^="s"] {
+      height: auto;
+      overflow: hidden;
+      display: block;
+
+      > a,
+      > label {
+        position: relative;
+        padding: 0 10px 0 30px;
+        font-size: .9em;
+        display: flex;
+        align-items: center;
+        .close();
+      }
+      > label > a {
+        padding-left: 0;
+      }
+    }
+
+    /* Interactions */
+    .loop(@i) when (@i > 0) {
+      .loop((@i - 1));
+
+      /* Sub menu */
+      input[id^="s@{i}-"] {
+        display: none;
+      }
+      [class='s@{i}'] {
+        a, label {
+          padding-left: (@i+2)*10px;
+        }
+      }
+
+      /* Open sub menu */
+      input[id^="s@{i}-"]:checked + label {
+        color: @foreground-color;
+
+        + [class="s@{i}"] {
+          > a,
+          > label {
+            .open();
+          }
+        }
+      }
+
+      /* Close sub menu */
+      input[id^="s@{i}-"]:not(:checked) {
+        + label + [class="s@{i}"] {
+          a, div {
+            .close();
+          }
+        }
+      }
+    }
+
+    /* Supporting 3 levels of sub menus */
+    .loop(3);
+  }
 }
 
 /* Menu buttons */
-#menu ~ label#open {
+#menu {
   display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 10px 14px;
-  font-size: 20px;
-  background: fade(@background-color, 10%);
-  cursor: pointer;
-  color: @menu-color;
-  z-index: 3;
-  transition: background @menu-toggle-duration, color @menu-toggle-duration;
-}
-#menu ~ label#open:hover {
-  color: @foreground-color;
-  transition: color @menu-button-duration;
+
+  ~label#open {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 14px;
+    font-size: 20px;
+    background: fade(@background-color, 10%);
+    cursor: pointer;
+    color: @menu-color;
+    z-index: 3;
+    transition: background @menu-toggle-duration, color @menu-toggle-duration;
+  }
+
+  ~label#open:hover {
+    color: @foreground-color;
+    transition: color @menu-button-duration;
+  }
 }
 
 /* Exit later in main content */
@@ -126,52 +157,4 @@ nav > div label:hover {
   background-color: @foreground-color;
   display: none;
   opacity: 0;
-}
-
-/* Interactions */
-input[id^="s1-"],
-input[id^="s2-"],
-input[id^="s3-"]{
-  display: none;
-}
-input[id^="s1-"]:checked + label,
-input[id^="s2-"]:checked + label,
-input[id^="s3-"]:checked + label {
-  color: @foreground-color;
-}
-input[id^="s1-"]:checked + label + .s1 {
-  > a,
-  > label {
-    .open();
-  }
-}
-input[id^="s2-"]:checked + label + .s2 {
-  > a,
-  > label {
-    .open();
-  }
-}
-input[id^="s3-"]:checked + label + .s3 > a {
-  .open();
-}
-input[id^="s1-"]:not(:checked) {
-  + label + .s1 {
-    a, div {
-      .close();
-    }
-  }
-}
-input[id^="s2-"]:not(:checked) {
-  + label + .s2 {
-    a, div {
-      .close();
-    }
-  }
-}
-input[id^="s3-"]:not(:checked) {
-  + label + .s3 {
-    a, div {
-      .close();
-    }
-  }
 }

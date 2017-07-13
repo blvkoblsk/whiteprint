@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40a573d4-fbcf-4658-a8ad-a704a25b86ff" name="Default" comment="submenu close bug fixed">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes.less" afterPath="$PROJECT_DIR$/src/classes.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/media.less" afterPath="$PROJECT_DIR$/src/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/menu.less" afterPath="$PROJECT_DIR$/src/menu.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp.css" afterPath="$PROJECT_DIR$/wp.css" />
-    </list>
+    <list default="true" id="40a573d4-fbcf-4658-a8ad-a704a25b86ff" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -28,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            <state relative-caret-position="300">
+              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding>
                 <element signature="e#2636#2640#0" expanded="true" />
                 <element signature="e#2695#2699#0" expanded="true" />
@@ -460,7 +453,7 @@
       <workItem from="1499011294618" duration="141000" />
       <workItem from="1499014317081" duration="596000" />
       <workItem from="1499237297191" duration="1202000" />
-      <workItem from="1499505146243" duration="9126000" />
+      <workItem from="1499505146243" duration="9182000" />
     </task>
     <task id="LOCAL-00001" summary="first stable version out.">
       <created>1495900399811</created>
@@ -574,11 +567,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499250721415</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="some simplifications">
+      <created>1499870836203</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1499870836203</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53979000" />
+    <option name="totallyTimeSpent" value="54035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="798" extended-state="6" />
@@ -588,7 +588,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921812" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -624,7 +624,8 @@
     <MESSAGE value="table font decreased" />
     <MESSAGE value="third level of menu added" />
     <MESSAGE value="submenu close bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="submenu close bug fixed" />
+    <MESSAGE value="some simplifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="some simplifications" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -951,8 +952,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="300">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
             <element signature="e#2636#2640#0" expanded="true" />
             <element signature="e#2695#2699#0" expanded="true" />

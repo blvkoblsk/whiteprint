@@ -1,5 +1,5 @@
-@import-once "core";
-@import-once "menu";
+@import-once 'core';
+@import-once 'menu';
 
 @margin-small-screen: 2.1*@menu-width;
 @margin-tablet: @menu-width;
@@ -8,13 +8,13 @@
 /* Main */
 main {
   @media (max-width: 1240px) {
-    width: ~"calc(100% - @{margin-small-screen})";
+    width: ~'calc(100% - @{margin-small-screen})';
   }
   @media screen and (max-width: 1140px) {
-    width: ~"calc(100% - @{margin-tablet})";
+    width: ~'calc(100% - @{margin-tablet})';
   }
   @media screen and (max-width: 700px) {
-    width: ~"calc(100% - @{margin-mobile})";
+    width: ~'calc(100% - @{margin-mobile})';
   }
 }
 

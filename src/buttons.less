@@ -1,7 +1,7 @@
-@import-once "core";
-@import-once "link";
+@import-once 'core';
+@import-once 'link';
 
-input[type="file"] {
+input[type='file'] {
   width: 0.1px;
   height: 0.1px;
   opacity: 0;
@@ -12,9 +12,9 @@ input[type="file"] {
 
 button,
 a.button,
-input[type="submit"],
-input[type="button"],
-input[type="file"] + label,
+input[type='submit'],
+input[type='button'],
+input[type='file'] + label,
 .filename {
   text-decoration: none;
   background-color: @background-color;
@@ -39,16 +39,16 @@ input[type="file"] + label,
 }
 button:hover,
 a.button:hover,
-input[type="submit"]:hover,
-input[type="button"]:hover,
-input[type="file"] + label:hover {
+input[type='submit']:hover,
+input[type='button']:hover,
+input[type='file'] + label:hover {
   color: @background-color;
   background-color: @link-color;
 }
 button:active,
 a.button:active,
-input[type="submit"]:active,
-input[type="button"]:active,
-input[type="file"] + label:active {
+input[type='submit']:active,
+input[type='button']:active,
+input[type='file'] + label:active {
   color: @foreground-color;
 }

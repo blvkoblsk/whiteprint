@@ -25,7 +25,7 @@ main {
   height: 100%;
   line-height: 1.6em;
 }
-@import-once "core";
+@import-once 'core';
 /* Constants */
 /* Open/close transitions */
 /* Menu itself */
@@ -57,7 +57,13 @@ aside nav {
   /* Menu entries */
   /* Sub menus */
   /* Interactions */
-  /* Supporting 3 levels of sub menus */
+  /* Supporting 5 levels of sub menus */
+  /* Sub menu */
+  /* Open sub menu */
+  /* Close sub menu */
+  /* Sub menu */
+  /* Open sub menu */
+  /* Close sub menu */
   /* Sub menu */
   /* Open sub menu */
   /* Close sub menu */
@@ -87,13 +93,13 @@ aside nav label:hover {
   color: #fff;
   border: none;
 }
-aside nav [class^="s"] {
+aside nav [class^='s'] {
   height: auto;
   overflow: hidden;
   display: block;
 }
-aside nav [class^="s"] > a,
-aside nav [class^="s"] > label {
+aside nav [class^='s'] > a,
+aside nav [class^='s'] > label {
   position: relative;
   padding: 0 10px 0 30px;
   font-size: .9em;
@@ -103,71 +109,115 @@ aside nav [class^="s"] > label {
   opacity: 0;
   transition: height 0.2s, opacity 0.2s;
 }
-aside nav [class^="s"] > label > a {
+aside nav [class^='s'] > label > a {
   padding-left: 0;
 }
-aside nav input[id^="s1-"] {
+aside nav input[id^='s1-'] {
   display: none;
 }
 aside nav [class='s1'] a,
 aside nav [class='s1'] label {
   padding-left: 30px;
 }
-aside nav input[id^="s1-"]:checked + label {
+aside nav input[id^='s1-']:checked + label {
   color: #000;
 }
-aside nav input[id^="s1-"]:checked + label + [class="s1"] > a,
-aside nav input[id^="s1-"]:checked + label + [class="s1"] > label {
+aside nav input[id^='s1-']:checked + label + [class='s1'] > a,
+aside nav input[id^='s1-']:checked + label + [class='s1'] > label {
   height: 40px;
   opacity: 1;
   transition: height 0.2s, opacity 0.2s;
 }
-aside nav input[id^="s1-"]:not(:checked) + label + [class="s1"] a,
-aside nav input[id^="s1-"]:not(:checked) + label + [class="s1"] div {
+aside nav input[id^='s1-']:not(:checked) + label + [class='s1'] a,
+aside nav input[id^='s1-']:not(:checked) + label + [class='s1'] div {
   height: 0;
   opacity: 0;
   transition: height 0.2s, opacity 0.2s;
 }
-aside nav input[id^="s2-"] {
+aside nav input[id^='s2-'] {
   display: none;
 }
 aside nav [class='s2'] a,
 aside nav [class='s2'] label {
   padding-left: 40px;
 }
-aside nav input[id^="s2-"]:checked + label {
+aside nav input[id^='s2-']:checked + label {
   color: #000;
 }
-aside nav input[id^="s2-"]:checked + label + [class="s2"] > a,
-aside nav input[id^="s2-"]:checked + label + [class="s2"] > label {
+aside nav input[id^='s2-']:checked + label + [class='s2'] > a,
+aside nav input[id^='s2-']:checked + label + [class='s2'] > label {
   height: 40px;
   opacity: 1;
   transition: height 0.2s, opacity 0.2s;
 }
-aside nav input[id^="s2-"]:not(:checked) + label + [class="s2"] a,
-aside nav input[id^="s2-"]:not(:checked) + label + [class="s2"] div {
+aside nav input[id^='s2-']:not(:checked) + label + [class='s2'] a,
+aside nav input[id^='s2-']:not(:checked) + label + [class='s2'] div {
   height: 0;
   opacity: 0;
   transition: height 0.2s, opacity 0.2s;
 }
-aside nav input[id^="s3-"] {
+aside nav input[id^='s3-'] {
   display: none;
 }
 aside nav [class='s3'] a,
 aside nav [class='s3'] label {
   padding-left: 50px;
 }
-aside nav input[id^="s3-"]:checked + label {
+aside nav input[id^='s3-']:checked + label {
   color: #000;
 }
-aside nav input[id^="s3-"]:checked + label + [class="s3"] > a,
-aside nav input[id^="s3-"]:checked + label + [class="s3"] > label {
+aside nav input[id^='s3-']:checked + label + [class='s3'] > a,
+aside nav input[id^='s3-']:checked + label + [class='s3'] > label {
   height: 40px;
   opacity: 1;
   transition: height 0.2s, opacity 0.2s;
 }
-aside nav input[id^="s3-"]:not(:checked) + label + [class="s3"] a,
-aside nav input[id^="s3-"]:not(:checked) + label + [class="s3"] div {
+aside nav input[id^='s3-']:not(:checked) + label + [class='s3'] a,
+aside nav input[id^='s3-']:not(:checked) + label + [class='s3'] div {
+  height: 0;
+  opacity: 0;
+  transition: height 0.2s, opacity 0.2s;
+}
+aside nav input[id^='s4-'] {
+  display: none;
+}
+aside nav [class='s4'] a,
+aside nav [class='s4'] label {
+  padding-left: 60px;
+}
+aside nav input[id^='s4-']:checked + label {
+  color: #000;
+}
+aside nav input[id^='s4-']:checked + label + [class='s4'] > a,
+aside nav input[id^='s4-']:checked + label + [class='s4'] > label {
+  height: 40px;
+  opacity: 1;
+  transition: height 0.2s, opacity 0.2s;
+}
+aside nav input[id^='s4-']:not(:checked) + label + [class='s4'] a,
+aside nav input[id^='s4-']:not(:checked) + label + [class='s4'] div {
+  height: 0;
+  opacity: 0;
+  transition: height 0.2s, opacity 0.2s;
+}
+aside nav input[id^='s5-'] {
+  display: none;
+}
+aside nav [class='s5'] a,
+aside nav [class='s5'] label {
+  padding-left: 70px;
+}
+aside nav input[id^='s5-']:checked + label {
+  color: #000;
+}
+aside nav input[id^='s5-']:checked + label + [class='s5'] > a,
+aside nav input[id^='s5-']:checked + label + [class='s5'] > label {
+  height: 40px;
+  opacity: 1;
+  transition: height 0.2s, opacity 0.2s;
+}
+aside nav input[id^='s5-']:not(:checked) + label + [class='s5'] a,
+aside nav input[id^='s5-']:not(:checked) + label + [class='s5'] div {
   height: 0;
   opacity: 0;
   transition: height 0.2s, opacity 0.2s;
@@ -204,7 +254,7 @@ aside nav input[id^="s3-"]:not(:checked) + label + [class="s3"] div {
   display: none;
   opacity: 0;
 }
-@import-once "core";
+@import-once 'core';
 .wp:after {
   content: 'whiteprint';
   color: #999999;
@@ -218,7 +268,7 @@ aside nav input[id^="s3-"]:not(:checked) + label + [class="s3"] div {
   align-items: center;
   color: #000;
 }
-@import-once "core";
+@import-once 'core';
 h1 {
   width: 100%;
   margin: 0;
@@ -372,9 +422,9 @@ a:hover {
 a:active {
   color: #005db7;
 }
-@import-once "core";
-@import-once "link";
-input[type="file"] {
+@import-once 'core';
+@import-once 'link';
+input[type='file'] {
   width: 0.1px;
   height: 0.1px;
   opacity: 0;
@@ -384,9 +434,9 @@ input[type="file"] {
 }
 button,
 a.button,
-input[type="submit"],
-input[type="button"],
-input[type="file"] + label,
+input[type='submit'],
+input[type='button'],
+input[type='file'] + label,
 .filename {
   text-decoration: none;
   background-color: #fff;
@@ -411,26 +461,26 @@ input[type="file"] + label,
 }
 button:hover,
 a.button:hover,
-input[type="submit"]:hover,
-input[type="button"]:hover,
-input[type="file"] + label:hover {
+input[type='submit']:hover,
+input[type='button']:hover,
+input[type='file'] + label:hover {
   color: #fff;
   background-color: dodgerblue;
 }
 button:active,
 a.button:active,
-input[type="submit"]:active,
-input[type="button"]:active,
-input[type="file"] + label:active {
+input[type='submit']:active,
+input[type='button']:active,
+input[type='file'] + label:active {
   color: #000;
 }
-@import-once "core";
-@import-once "link";
+@import-once 'core';
+@import-once 'link';
 span.ref {
   position: relative;
 }
 span.ref:after {
-  content: "ref";
+  content: 'ref';
   position: relative;
   color: dodgerblue;
   font-size: 0.7em;
@@ -458,8 +508,8 @@ span.ref a:visited {
 span.ref:hover a {
   display: inline-block;
 }
-@import-once "core";
-@import-once "menu";
+@import-once 'core';
+@import-once 'menu';
 /* Main */
 @media (max-width: 1240px) {
   main {
@@ -501,7 +551,7 @@ span.ref:hover a {
     transform: translateX(0);
   }
 }
-@import-once "core";
+@import-once 'core';
 code {
   font-size: 0.8em;
   font-family: 'Courier', monospace;
@@ -514,10 +564,10 @@ code {
   color: #000;
 }
 code.tag:before {
-  content: "<";
+  content: '<';
 }
 code.tag:after {
-  content: ">";
+  content: '>';
 }
 pre {
   font-size: 0.9em;
@@ -532,7 +582,7 @@ pre {
   background-color: #f2f2f2;
   color: #000;
 }
-@import-once "core";
+@import-once 'core';
 div.card {
   padding: 10px;
   margin-bottom: 10px;

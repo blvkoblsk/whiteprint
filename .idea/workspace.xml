@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40a573d4-fbcf-4658-a8ad-a704a25b86ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sh" afterPath="$PROJECT_DIR$/build.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bundle.less" afterPath="$PROJECT_DIR$/src/bundle.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/buttons.less" afterPath="$PROJECT_DIR$/src/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes.less" afterPath="$PROJECT_DIR$/src/classes.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/code.less" afterPath="$PROJECT_DIR$/src/code.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core.less" afterPath="$PROJECT_DIR$/src/core.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/headers.less" afterPath="$PROJECT_DIR$/src/headers.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lists.less" afterPath="$PROJECT_DIR$/src/lists.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logo.less" afterPath="$PROJECT_DIR$/src/logo.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/media.less" afterPath="$PROJECT_DIR$/src/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/menu.less" afterPath="$PROJECT_DIR$/src/menu.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reference.less" afterPath="$PROJECT_DIR$/src/reference.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/table.less" afterPath="$PROJECT_DIR$/src/table.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp.css" afterPath="$PROJECT_DIR$/wp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp.min.css" afterPath="$PROJECT_DIR$/wp.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="100" column="24" lean-forward="true" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+            <state relative-caret-position="257">
+              <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#3162#3166#0" expanded="true" />
@@ -133,7 +116,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
+    <option name="x" value="1984" />
     <option name="y" value="-11" />
     <option name="width" value="1857" />
     <option name="height" value="1092" />
@@ -475,7 +458,7 @@
       <workItem from="1502549033462" duration="506000" />
       <workItem from="1502549989843" duration="161000" />
       <workItem from="1503344139954" duration="364000" />
-      <workItem from="1503573113886" duration="910000" />
+      <workItem from="1503573113886" duration="989000" />
     </task>
     <task id="LOCAL-00001" summary="first stable version out.">
       <created>1495900399811</created>
@@ -610,14 +593,21 @@
       <option name="project" value="LOCAL" />
       <updated>1502550124612</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="number of menu levels increased to 6">
+      <created>1503574067795</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1503574067795</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55976000" />
+    <option name="totallyTimeSpent" value="56055000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="1984" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -663,7 +653,8 @@
     <MESSAGE value="some simplifications" />
     <MESSAGE value="banner fixed" />
     <MESSAGE value="link to demo page added to readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="link to demo page added to readme" />
+    <MESSAGE value="number of menu levels increased to 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="number of menu levels increased to 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -994,8 +985,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="100" column="24" lean-forward="true" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+        <state relative-caret-position="257">
+          <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#3162#3166#0" expanded="true" />

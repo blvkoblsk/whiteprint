@@ -397,7 +397,6 @@ dl.custom {
 }
 dl.custom dt {
   margin-left: -1.6em;
-  margin-top: 5px;
   float: left;
   width: calc(10% + 1.6em);
 }

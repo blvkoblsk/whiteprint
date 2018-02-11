@@ -1,0 +1,19 @@
+$link-color: dodgerblue;
+$link-visited-color: grayscale($link-color);
+$link-hover-color: lighten($link-color, 20%);
+$link-active-color: darken($link-color, 20%);
+
+/* Inline links */
+a,
+a:visited,
+a.visited {
+  cursor: pointer;
+  text-decoration: none;
+  color: $link-color;
+}
+a:hover {
+  color: $link-hover-color;
+}
+a:active {
+  color: $link-active-color;
+}

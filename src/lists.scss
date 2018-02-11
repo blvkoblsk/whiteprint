@@ -1,9 +1,9 @@
-@list-margin: 1.6em;
+$list-margin: 1.6em;
 
-.list() {
+@mixin list() {
   width: 90%;
   margin: 0;
-  padding-left: @list-margin;
+  padding-left: $list-margin;
   padding-top: 0;
 }
 
@@ -12,35 +12,35 @@ ul li, ol li, dl dd {
 }
 
 ul {
-  .list();
+  @include list();
   list-style-type: circle;
 }
 
 ol {
-  .list();
+  @include list();
   list-style-type: decimal;
 }
 
 dl:not(.custom) {
-  .list();
+  @include list();
   dt {
-    margin-left: -@list-margin;
+    margin-left: -$list-margin;
     font-weight: 500;
   }
   dd {
-    margin-left: -@list-margin/2;
+    margin-left: -$list-margin/2;
   }
 }
 
 dl.custom {
-  .list();
-  width: ~'calc(90% + @{list-margin})';
+  @include list();
+  width: calc(90% + #{$list-margin});
   overflow: hidden;
   margin-top: 5px;
   dt {
-    margin-left: -@list-margin;
+    margin-left: -$list-margin;
     float: left;
-    width: ~'calc(10% + @{list-margin})';
+    width: calc(10% + #{$list-margin});
   }
   dd {
     float: left;

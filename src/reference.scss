@@ -1,5 +1,5 @@
-@import-once 'core';
-@import-once 'link';
+@import "core";
+@import "link";
 
 span.ref {
   position: relative;
@@ -7,12 +7,12 @@ span.ref {
 span.ref:after {
   content: 'ref';
   position: relative;
-  color: @link-color;
+  color: $link-color;
   font-size: 0.7em;
   top: -0.4em;
   cursor: pointer;
   text-decoration: none;
-  border-bottom: 0 solid @background-color;
+  border-bottom: 0 solid $background-color;
 }
 span.ref a,
 span.ref a:visited {
@@ -20,8 +20,8 @@ span.ref a:visited {
   bottom: 0.8em;
   padding: 5px 10px;
   width: 200px;
-  color: @link-color;
-  background-color: @background-color;
+  color: $link-color;
+  background-color: $background-color;
   box-shadow: 0 0 2px gray;
   border-radius: 2px;
   font-size: 0.8em;

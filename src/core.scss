@@ -1,8 +1,8 @@
 /* Colors */
-@background-color: #fff;
-@foreground-color: #000;
-@menu-width: 220px;
-@main-width: 600px;
+$background-color: #fff;
+$foreground-color: #000;
+$menu-width: 220px;
+$main-width: 600px;
 
 /* General */
 *{
@@ -11,24 +11,24 @@
 
 /* Text selection */
 ::selection {
-  color: @background-color;
-  background-color: @foreground-color;
+  color: $background-color;
+  background-color: $foreground-color;
 }
 
 /* HTML, body */
 html,
 body {
-  background-color: @background-color;
+  background-color: $background-color;
   font-family: 'Montserrat', 'Avenir Next', 'Helvetica Neue', 'Helvetica', sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
 
 /* Content */
 main {
-  width: ~'calc(100% - @{menu-width})';
-  max-width: @main-width;
+  width: calc(100% - #{$menu-width});
+  max-width: $main-width;
   margin: 0 auto;
   height: 100%;
   line-height: 1.6em;

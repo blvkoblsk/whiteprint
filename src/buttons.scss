@@ -1,5 +1,5 @@
-@import-once 'core';
-@import-once 'link';
+@import "core";
+@import "link";
 
 input[type='file'] {
   width: 0.1px;
@@ -17,9 +17,9 @@ input[type='button'],
 input[type='file'] + label,
 .filename {
   text-decoration: none;
-  background-color: @background-color;
-  border: 1px solid @link-color;
-  color: @link-color;
+  background-color: $background-color;
+  border: 1px solid $link-color;
+  color: $link-color;
   padding: 4px 12px 6px 12px;
   margin: 2px;
   font-family: inherit;
@@ -35,20 +35,20 @@ input[type='file'] + label,
 .filename {
   border: none;
   cursor: default;
-  color: @foreground-color;
+  color: $foreground-color;
 }
 button:hover,
 a.button:hover,
 input[type='submit']:hover,
 input[type='button']:hover,
 input[type='file'] + label:hover {
-  color: @background-color;
-  background-color: @link-color;
+  color: $background-color;
+  background-color: $link-color;
 }
 button:active,
 a.button:active,
 input[type='submit']:active,
 input[type='button']:active,
 input[type='file'] + label:active {
-  color: @foreground-color;
+  color: $foreground-color;
 }

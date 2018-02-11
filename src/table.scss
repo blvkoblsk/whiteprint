@@ -1,8 +1,8 @@
 @import 'core';
 
-@table-border-color: darken(@background-color, 30%);
+$table-border-color: darken($background-color, 30%);
 
-.fontSize() {
+@mixin fontSize() {
   font-size: 0.9em;
 }
 
@@ -19,8 +19,8 @@ table {
   }
   thead {
     text-align: left;
-    border-bottom: 1px solid @table-border-color;
-    .fontSize();
+    border-bottom: 1px solid $table-border-color;
+    @include fontSize();
     th {
       font-weight: normal;
       font-variant: all-small-caps;
@@ -28,7 +28,7 @@ table {
     }
   }
   tbody {
-    .fontSize();
+    @include fontSize();
     tr {
       td {
         padding-top: 3px;
@@ -41,10 +41,10 @@ table {
     }
   }
   tfoot {
-    .fontSize();
+    @include fontSize();
     font-style: italic;
     margin-top: 5px;
-    border-top: 1px solid @table-border-color;
+    border-top: 1px solid $table-border-color;
   }
 }
 

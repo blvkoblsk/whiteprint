@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="wp.min.css">
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <title>whiteprint.css</title>
 </head>
 <body>
@@ -187,13 +191,12 @@
     <!-- Block -->
     <h3 id="doc-code-block">block</h3>
     For a larger code block, wrap the code in <code class="tag">pre</code>:
-    <pre>
-html,
+    <pre><code class="css">html,
 body {
     font-family: 'Avenir Next', 'Helvetica', sans-serif;
     background-color: white;
     color: black;
-}</pre>
+}</code></pre>
 
     <!-- Classes -->
     <h3 id="doc-code-classes">classes</h3>

@@ -1,7 +1,7 @@
 @import "core";
 
-code{
-  font-size: 0.8em;
+code {
+  font-size: 0.9em;
   font-family: 'Courier', monospace;
   font-style: normal;
   line-height: 1em;
@@ -19,15 +19,16 @@ code.tag:after {
 }
 
 pre {
+  overflow-x: scroll;
+  border-radius: 3px;
+  margin: 10px 0;
+  display: block;
+}
+pre > code {
   font-size: 0.9em;
   font-family: 'Courier', monospace;
   font-style: normal;
   line-height: 1.5em;
-  overflow-x: hidden;
-  border-radius: 3px;
-  padding: 10px 15px;
-  margin: 0;
-  display: block;
   background-color: darken($background-color, 5%);
   color: $foreground-color;
 }

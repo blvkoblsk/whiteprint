@@ -84,7 +84,7 @@ aside {
 
     /* Interactions */
     @mixin interactions($i) {
-      @for $i from 0 to 4 {
+      @for $i from 0 to 7 {
         /* Sub menu */
         input[id^='s#{$i}-'] {
           display: none;

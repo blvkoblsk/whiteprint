@@ -1,4 +1,4 @@
-@import "core";
+// @import "core";
 
 /* Constants */
 $menu-button-duration: .3s;
@@ -111,8 +111,8 @@ aside {
       }
     }
 
-    /* Supporting 5 levels of sub menus */
-    @include interactions(5);
+    /* Supporting 7 levels of sub menus */
+    @include interactions(7);
   }
 }
 

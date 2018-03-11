@@ -1,4 +1,4 @@
-@import "core";
+// @import "core";
 
 code {
   font-size: 0.9em;
@@ -23,8 +23,10 @@ pre {
   border-radius: 3px;
   margin: 10px 0;
   display: block;
+  width: auto;
 }
 pre > code {
+  min-width: 100%;
   font-size: 0.9em;
   font-family: 'Courier', monospace;
   font-style: normal;

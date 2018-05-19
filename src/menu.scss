@@ -21,6 +21,7 @@ $menu-color: lighten($foreground-color, 70%);
 /* Menu itself */
 aside {
   position: fixed;
+  top: 0;
   transition: transform $menu-toggle-duration;
   background: $background-color;
   width: $menu-width;

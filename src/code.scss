@@ -10,12 +10,14 @@ code {
   padding: 3px 6px;
   background-color: darken($background-color, 5%);
   color: $foreground-color;
-}
-code.tag:before {
-  content: '<';
-}
-code.tag:after {
-  content: '>';
+  &.tag {
+    &:before {
+      content: '<';
+    }
+    &:after {
+      content: '>';
+    }
+  }
 }
 
 pre {
